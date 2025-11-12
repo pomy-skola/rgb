@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <a href="{{ url_for('page_color', color='red') }}">Red</a><br>
+    <a href="{{ url_for('page_color', color='green') }}">Green</a><br>
+    <a href="{{ url_for('page_color', color='blue') }}">Blue</a><br>
+{% endblock %}
